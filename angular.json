@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "angular10-test"
+  "defaultProject": "angular10-test",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
