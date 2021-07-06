@@ -7,6 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'Angular Core Deep Dive';
+  data = {
+    title : 'Angular Core Deep Dive',
+    subtitle : 'Angular 10'
+  }
+
+  clickImg () {
+    alert('Hello World')
+  }
+
+  onKeyUp (newTitle:string) {
+    this.data.subtitle = newTitle;
+  }
 
 }
