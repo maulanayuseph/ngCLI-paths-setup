@@ -19,7 +19,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@core/*": ["src/app/_core/*"],
+      "@common": ["src/app/_core/common/index.ts"],
+      "@guards": ["src/app/_core/guards/index.ts"],
+      "@helpers": ["src/app/_core/helpers/index.ts"],
+      "@interceptors": ["src/app/_core/interceptors/index.ts"],
+      "@models": ["src/app/_core/models/index.ts"],
+      "@services": ["src/app/_core/services/index.ts"],
+      "@store/*": ["src/app/_core/store/*"],
+      "@templates/*": ["src/app/_core/templates/*"],
+      "@views/*": ["src/app/views/*"],
+      "@data/*": ["src/assets/data/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
